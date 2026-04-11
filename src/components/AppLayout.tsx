@@ -1,6 +1,7 @@
 import { NavLink, Outlet } from "react-router-dom";
 import { LayoutDashboard, ClipboardList } from "lucide-react";
 import { AttendanceProvider } from "@/context/AttendanceContext";
+import focusLogo from "@/assets/focus-logo.png";
 
 const navItems = [
   { to: "/", label: "Dashboard", icon: LayoutDashboard },
