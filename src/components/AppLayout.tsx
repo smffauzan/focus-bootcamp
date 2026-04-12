@@ -1,6 +1,7 @@
 import { NavLink, Outlet } from "react-router-dom";
 import { LayoutDashboard, ClipboardList } from "lucide-react";
 import { AttendanceProvider } from "@/context/AttendanceContext";
+import logo from "@/assets/logo.png";
 
 const navItems = [
   { to: "/", label: "Dashboard", icon: LayoutDashboard },
@@ -12,9 +13,12 @@ export function AppLayout() {
     <AttendanceProvider>
       <div className="flex min-h-screen">
         <aside className="w-56 shrink-0 border-r border-border bg-sidebar hidden md:flex flex-col">
-          <div className="p-4 border-b border-border">
-            <h2 className="font-mono font-bold text-sm tracking-widest text-primary">FCC BOOTCAMP</h2>
-            <p className="text-[10px] font-mono text-muted-foreground mt-0.5">ATTENDANCE TRACKER</p>
+          <div className="p-4 border-b border-border flex items-center gap-3">
+            <img src={logo} alt="Focus Career Center" className="h-10 w-10 object-contain" />
+            <div>
+              <h2 className="font-mono font-bold text-sm tracking-widest text-primary">FCC BOOTCAMP</h2>
+              <p className="text-[10px] font-mono text-muted-foreground mt-0.5">ATTENDANCE TRACKER</p>
+            </div>
           </div>
           <nav className="flex-1 p-3 space-y-1">
             {navItems.map((item) => (
@@ -42,7 +46,10 @@ export function AppLayout() {
 
         <div className="flex-1 flex flex-col">
           <header className="md:hidden flex items-center justify-between p-3 border-b border-border bg-sidebar">
-            <h2 className="font-mono font-bold text-sm tracking-widest text-primary">FCC BOOTCAMP</h2>
+            <div className="flex items-center gap-2">
+              <img src={logo} alt="Focus Career Center" className="h-8 w-8 object-contain" />
+              <h2 className="font-mono font-bold text-sm tracking-widest text-primary">FCC BOOTCAMP</h2>
+            </div>
             <nav className="flex gap-1">
               {navItems.map((item) => (
                 <NavLink
