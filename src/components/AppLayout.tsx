@@ -46,7 +46,10 @@ export function AppLayout() {
 
         <div className="flex-1 flex flex-col">
           <header className="md:hidden flex items-center justify-between p-3 border-b border-border bg-sidebar">
-            <h2 className="font-mono font-bold text-sm tracking-widest text-primary">FCC BOOTCAMP</h2>
+            <div className="flex items-center gap-2">
+              <img src={logo} alt="Focus Career Center" className="h-8 w-8 object-contain" />
+              <h2 className="font-mono font-bold text-sm tracking-widest text-primary">FCC BOOTCAMP</h2>
+            </div>
             <nav className="flex gap-1">
               {navItems.map((item) => (
                 <NavLink
