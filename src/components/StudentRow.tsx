@@ -74,6 +74,7 @@ export function StudentRow({ student, record, selected, onToggleSelect, onMark, 
             <RotateCcw className="h-4 w-4" />
           </Button>
         )}
+      </div>
       <Badge
         variant={status === "present" ? "default" : status === "absent" ? "destructive" : "outline"}
         className={`font-mono text-[10px] uppercase w-16 justify-center ${status === "present" ? "bg-success/20 text-success border-success/30" : status === "absent" ? "bg-danger/20 text-danger border-danger/30" : "text-muted-foreground"}`}

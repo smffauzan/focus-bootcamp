@@ -85,6 +85,7 @@ export function useAttendance() {
     markAttendance,
     markAllPresent,
     resetDay,
+    resetStudent,
     syncToSheets,
     syncing,
     summary,
