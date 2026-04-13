@@ -56,10 +56,31 @@ export function useAttendance() {
 
   const syncToSheets = useCallback(async () => {
     setSyncing(true);
-    await new Promise((r) => setTimeout(r, 1500));
-    setSyncing(false);
-    toast.success("Synced to Google Sheets");
-  }, []);
+    try {
+      const dayRecords = records.filter((r) => r.date === dateKey);
+      
+      // Enrich records with student names
+      const enrichedRecords = dayRecords.map((r) => ({
+        ...r,
+        studentName: students.find((s) => s.id === r.studentId)?.name ?? r.studentId,
+      }));
+      
+      const response = await fetch("/api/sync-attendance", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ records: enrichedRecords, date: dateKey }),
+      });
+      if (!response.ok) {
+        throw new Error("Sync failed");
+      }
+      toast.success("Synced to Google Sheets");
+    } catch (error) {
+      console.error("Sync error:", error);
+      toast.error("Sync failed. Is the server running?");
+    } finally {
+      setSyncing(false);
+    }
+  }, [records, dateKey]);
 
   const summary = useMemo(() => {
     const dayRecords = records.filter((r) => r.date === dateKey);
