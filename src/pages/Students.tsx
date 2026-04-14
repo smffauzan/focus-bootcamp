@@ -28,6 +28,13 @@ export default function Students() {
   const [deleteConfirmOpen, setDeleteConfirmOpen] = useState(false);
   const [deleteTargetId, setDeleteTargetId] = useState<string | null>(null);
 
+  // Sort students by ID number in ascending order
+  const sortedStudents = [...students].sort((a, b) => {
+    const numA = parseInt(a.id.replace(/\D/g, ""), 10);
+    const numB = parseInt(b.id.replace(/\D/g, ""), 10);
+    return numA - numB;
+  });
+
   const handleAddStudent = () => {
     if (newStudentName.trim()) {
       addStudent(newStudentName);
@@ -96,14 +103,14 @@ export default function Students() {
               </tr>
             </thead>
             <tbody>
-              {students.length === 0 ? (
+              {sortedStudents.length === 0 ? (
                 <tr>
                   <td colSpan={3} className="px-6 py-8 text-center text-muted-foreground">
                     No students yet. Add one to get started.
                   </td>
                 </tr>
               ) : (
-                students.map((student) => (
+                sortedStudents.map((student) => (
                   <tr
                     key={student.id}
                     className="border-b border-border hover:bg-sidebar/30 transition-colors"

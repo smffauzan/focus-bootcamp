@@ -1,8 +1,32 @@
 {
   "students": [
-    { "id": "S001", "name": "A Mohammed Saleem" },
-    { "id": "S002", "name": "A Mohammed Saalim" },
-    { "id": "S003", "name": "A  Mohammed Sufiyan" },
-    { "id": "S004", "name": "N Mohammed Rehan" }
+    {
+      "id": "S001",
+      "name": "A Mohammed Saleem"
+    },
+    {
+      "id": "S002",
+      "name": "A Mohammed Saalim"
+    },
+    {
+      "id": "S003",
+      "name": "A  Mohammed Sufiyan"
+    },
+    {
+      "id": "S004",
+      "name": "N Mohammed Rehan"
+    },
+    {
+      "id": "S005",
+      "name": "fauzan"
+    },
+    {
+      "id": "S006",
+      "name": "smf"
+    },
+    {
+      "id": "S007",
+      "name": "akjedcnle"
+    }
   ]
 }

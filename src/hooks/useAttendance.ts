@@ -43,7 +43,7 @@ export function useAttendance() {
       return [...filtered, ...newRecords];
     });
     toast.success("All students marked present");
-  }, [dateKey]);
+  }, [dateKey, students]);
 
   const resetDay = useCallback(() => {
     setRecords((prev) => prev.filter((r) => r.date !== dateKey));
@@ -95,7 +95,7 @@ export function useAttendance() {
     const unmarked = total - present - absent;
     const rate = total > 0 ? Math.round((present / total) * 100) : 0;
     return { present, absent, total, unmarked, rate };
-  }, [records, dateKey]);
+  }, [records, dateKey, students]);
 
   const getStudentStatus = useCallback(
     (studentId: string): AttendanceRecord | undefined => {
@@ -105,8 +105,16 @@ export function useAttendance() {
   );
 
   const addStudent = useCallback((name: string) => {
+    // Find the highest existing numeric ID and increment by 1
+    const maxId = students.reduce((max, s) => {
+      const num = parseInt(s.id.replace(/\D/g, ""), 10);
+      return isNaN(num) ? max : Math.max(max, num);
+    }, 0);
+
+    const nextId = `S${String(maxId + 1).padStart(3, "0")}`;
+
     const newStudent: Student = {
-      id: `S${String(Date.now()).slice(-4)}`,
+      id: nextId,
       name: name.trim(),
     };
     const updated = [...students, newStudent];
