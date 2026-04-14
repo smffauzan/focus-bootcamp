@@ -2,19 +2,228 @@
   "students": [
     {
       "id": "S001",
-      "name": "A Mohammed Saleem"
+      "name": "A Mohammed Saleem",
+      "grade": "X"
     },
     {
       "id": "S002",
-      "name": "A Mohammed Saalim"
+      "name": "A Mohammed Saalim",
+      "grade": "V"
     },
     {
       "id": "S003",
-      "name": "A  Mohammed Sufiyan"
+      "name": "A  Mohammed Sufiyan",
+      "grade": "VI"
     },
     {
       "id": "S004",
-      "name": "N Mohammed Rehan"
+      "name": "N Mohammed Rehan",
+      "grade": "VI"
+    },
+    {
+      "id": "S005",
+      "name": "Tabsheer Ahmed P",
+      "grade": "X"
+    },
+    {
+      "id": "S006",
+      "name": "Mohammed Rehan N",
+      "grade": "XI"
+    },
+    {
+      "id": "S007",
+      "name": "Atif Ahmed V N",
+      "grade": "X"
+    },
+    {
+      "id": "S008",
+      "name": "Abrar Ul Haq K",
+      "grade": "X"
+    },
+    {
+      "id": "S009",
+      "name": "Hisham K",
+      "grade": "X"
+    },
+    {
+      "id": "S010",
+      "name": "Mohammed Khanith M",
+      "grade": "XI"
+    },
+    {
+      "id": "S011",
+      "name": "Mohammed Taaha K",
+      "grade": "XI"
+    },
+    {
+      "id": "S012",
+      "name": "Khaleel Ur Rahman",
+      "grade": "XII"
+    },
+    {
+      "id": "S013",
+      "name": "Mohammed Faizan A",
+      "grade": "XII"
+    },
+    {
+      "id": "S014",
+      "name": "Mohammed Owais V R",
+      "grade": "XII"
+    },
+    {
+      "id": "S015",
+      "name": "Mohammed Nochu",
+      "grade": "XII"
+    },
+    {
+      "id": "S016",
+      "name": "Mohammed Ammar C",
+      "grade": "III"
+    },
+    {
+      "id": "S017",
+      "name": "Mohammed Tauqeer V",
+      "grade": "III"
+    },
+    {
+      "id": "S018",
+      "name": "Mohammed Tabsheer V",
+      "grade": "VIII"
+    },
+    {
+      "id": "S019",
+      "name": "Adnan Faiz A",
+      "grade": "VI"
+    },
+    {
+      "id": "S020",
+      "name": "Mohammed Sareem A S",
+      "grade": "VIII"
+    },
+    {
+      "id": "S021",
+      "name": "Syed Ayaan A",
+      "grade": "VII"
+    },
+    {
+      "id": "S022",
+      "name": "Anmar Hussain H B",
+      "grade": "VI"
+    },
+    {
+      "id": "S023",
+      "name": "Abubakkar I N",
+      "grade": "VII"
+    },
+    {
+      "id": "S024",
+      "name": "Mohammed Anmar E A",
+      "grade": "III"
+    },
+    {
+      "id": "S025",
+      "name": "Mohammed Hamdaan M",
+      "grade": "VI"
+    },
+    {
+      "id": "S026",
+      "name": "Mohammed Faizaan T",
+      "grade": "V"
+    },
+    {
+      "id": "S027",
+      "name": "Mohammed Aarif A",
+      "grade": "VII"
+    },
+    {
+      "id": "S028",
+      "name": "Mohammed Irfan P H",
+      "grade": "X"
+    },
+    {
+      "id": "S029",
+      "name": "Mohammed Nihaal G H",
+      "grade": "X"
+    },
+    {
+      "id": "S030",
+      "name": "Mohammed Asaaf C",
+      "grade": "X"
+    },
+    {
+      "id": "S031",
+      "name": "Mujeebur Rahman H",
+      "grade": "X"
+    },
+    {
+      "id": "S032",
+      "name": "Mohammed Yaseen A",
+      "grade": "X"
+    },
+    {
+      "id": "S033",
+      "name": "Mohammed Raaqeeb A",
+      "grade": "XI"
+    },
+    {
+      "id": "S034",
+      "name": "Mohammed Affan N",
+      "grade": "V"
+    },
+    {
+      "id": "S035",
+      "name": "Mohammed Rizwan Z",
+      "grade": "V"
+    },
+    {
+      "id": "S036",
+      "name": "Mohammed Inaayathullah K",
+      "grade": "VIII"
+    },
+    {
+      "id": "S037",
+      "name": "Fouzan Zafar C",
+      "grade": "XI"
+    },
+    {
+      "id": "S038",
+      "name": "Mohammed Talha V",
+      "grade": "VII"
+    },
+    {
+      "id": "S039",
+      "name": "Mohammed Taaha V",
+      "grade": "XI"
+    },
+    {
+      "id": "S040",
+      "name": "Mohammed Huzaif N",
+      "grade": "XI"
+    },
+    {
+      "id": "S041",
+      "name": "Tufail Sheikh S",
+      "grade": "VII"
+    },
+    {
+      "id": "S042",
+      "name": "Irbaz Azhad M",
+      "grade": "VII"
+    },
+    {
+      "id": "S043",
+      "name": "Mohammed Haris J S",
+      "grade": "X"
+    },
+    {
+      "id": "S044",
+      "name": "Mohammed Anas M",
+      "grade": "XI"
+    },
+    {
+      "id": "S045",
+      "name": "Mohammed Hamid S",
+      "grade": "XII"
     }
   ]
 }
