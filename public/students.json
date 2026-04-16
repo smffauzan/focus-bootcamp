@@ -1,359 +1,67 @@
 {
   "students": [
-    {
-      "id": "S001",
-      "name": "A Mohammed Saleem",
-      "grade": "X"
-    },
-    {
-      "id": "S002",
-      "name": "A Mohammed Saalim",
-      "grade": "V"
-    },
-    {
-      "id": "S003",
-      "name": "A  Mohammed Sufiyan",
-      "grade": "VI"
-    },
-    {
-      "id": "S004",
-      "name": "N Mohammed Rehan",
-      "grade": "VI"
-    },
-    {
-      "id": "S005",
-      "name": "Tabsheer Ahmed P",
-      "grade": "X"
-    },
-    {
-      "id": "S006",
-      "name": "Mohammed Rehan N",
-      "grade": "XI"
-    },
-    {
-      "id": "S007",
-      "name": "Atif Ahmed V N",
-      "grade": "X"
-    },
-    {
-      "id": "S008",
-      "name": "Abrar Ul Haq K",
-      "grade": "X"
-    },
-    {
-      "id": "S009",
-      "name": "Hisham K",
-      "grade": "X"
-    },
-    {
-      "id": "S010",
-      "name": "Mohammed Khanith M",
-      "grade": "XI"
-    },
-    {
-      "id": "S011",
-      "name": "Mohammed Taaha K",
-      "grade": "XI"
-    },
-    {
-      "id": "S012",
-      "name": "Khaleel Ur Rahman",
-      "grade": "XII"
-    },
-    {
-      "id": "S013",
-      "name": "Mohammed Faizan A",
-      "grade": "XII"
-    },
-    {
-      "id": "S014",
-      "name": "Mohammed Owais V R",
-      "grade": "XII"
-    },
-    {
-      "id": "S015",
-      "name": "Mohammed Nochu",
-      "grade": "XII"
-    },
-    {
-      "id": "S016",
-      "name": "Mohammed Ammar C",
-      "grade": "III"
-    },
-    {
-      "id": "S017",
-      "name": "Mohammed Tauqeer V",
-      "grade": "III"
-    },
-    {
-      "id": "S018",
-      "name": "Mohammed Tabsheer V",
-      "grade": "VIII"
-    },
-    {
-      "id": "S019",
-      "name": "Adnan Faiz A",
-      "grade": "VI"
-    },
-    {
-      "id": "S020",
-      "name": "Mohammed Sareem A S",
-      "grade": "VIII"
-    },
-    {
-      "id": "S021",
-      "name": "Syed Ayaan A",
-      "grade": "VII"
-    },
-    {
-      "id": "S022",
-      "name": "Anmar Hussain H B",
-      "grade": "VI"
-    },
-    {
-      "id": "S023",
-      "name": "Abubakkar I N",
-      "grade": "VII"
-    },
-    {
-      "id": "S024",
-      "name": "Mohammed Anmar E A",
-      "grade": "III"
-    },
-    {
-      "id": "S025",
-      "name": "Mohammed Hamdaan M",
-      "grade": "VI"
-    },
-    {
-      "id": "S026",
-      "name": "Mohammed Faizaan T",
-      "grade": "V"
-    },
-    {
-      "id": "S027",
-      "name": "Mohammed Aarif A",
-      "grade": "VII"
-    },
-    {
-      "id": "S028",
-      "name": "Mohammed Irfan P H",
-      "grade": "X"
-    },
-    {
-      "id": "S029",
-      "name": "Mohammed Nihaal G H",
-      "grade": "X"
-    },
-    {
-      "id": "S030",
-      "name": "Mohammed Asaaf C",
-      "grade": "X"
-    },
-    {
-      "id": "S031",
-      "name": "Mujeebur Rahman H",
-      "grade": "X"
-    },
-    {
-      "id": "S032",
-      "name": "Mohammed Yaseen A",
-      "grade": "X"
-    },
-    {
-      "id": "S033",
-      "name": "Mohammed Raaqeeb A",
-      "grade": "XI"
-    },
-    {
-      "id": "S034",
-      "name": "Mohammed Affan N",
-      "grade": "V"
-    },
-    {
-      "id": "S035",
-      "name": "Mohammed Rizwan Z",
-      "grade": "V"
-    },
-    {
-      "id": "S036",
-      "name": "Mohammed Inaayathullah K",
-      "grade": "VIII"
-    },
-    {
-      "id": "S037",
-      "name": "Fouzan Zafar C",
-      "grade": "XI"
-    },
-    {
-      "id": "S038",
-      "name": "Mohammed Talha V",
-      "grade": "VII"
-    },
-    {
-      "id": "S039",
-      "name": "Mohammed Taaha V",
-      "grade": "XI"
-    },
-    {
-      "id": "S040",
-      "name": "Mohammed Huzaif N",
-      "grade": "XI"
-    },
-    {
-      "id": "S041",
-      "name": "Tufail Sheikh S",
-      "grade": "VII"
-    },
-    {
-      "id": "S042",
-      "name": "Irbaz Azhad M",
-      "grade": "VII"
-    },
-    {
-      "id": "S043",
-      "name": "Mohammed Haris J S",
-      "grade": "X"
-    },
-    {
-      "id": "S044",
-      "name": "Mohammed Anas M",
-      "grade": "XI"
-    },
-    {
-      "id": "S045",
-      "name": "Mohammed Hamid S",
-      "grade": "XII"
-    },
-    {
-      "id": "S046",
-      "name": "Rehan V J",
-      "grade": "X"
-    },
-    {
-      "id": "S047",
-      "name": "Mohammed Raihan",
-      "grade": "X"
-    },
-    {
-      "id": "S048",
-      "name": "Mohammed Safwan V J",
-      "grade": "X"
-    },
-    {
-      "id": "S049",
-      "name": "Mohammed Furqan E",
-      "grade": "XI"
-    },
-    {
-      "id": "S050",
-      "name": "Md Raahib K S",
-      "grade": "IV"
-    },
-    {
-      "id": "S051",
-      "name": "Md Saalim A",
-      "grade": "V"
-    },
-    {
-      "id": "S052",
-      "name": "Md Sufiyan A",
-      "grade": "VI"
-    },
-    {
-      "id": "S053",
-      "name": "Md Arquam T A",
-      "grade": "X"
-    },
-    {
-      "id": "S054",
-      "name": "Md Sulaiman M A",
-      "grade": "IX"
-    },
-    {
-      "id": "S055",
-      "name": "Md Hamdaan A",
-      "grade": "VI"
-    },
-    {
-      "id": "S056",
-      "name": "Syed Shuaib F",
-      "grade": "III"
-    },
-    {
-      "id": "S057",
-      "name": "Md Raihaan K",
-      "grade": "VI"
-    },
-    {
-      "id": "S058",
-      "name": "Md Taj Hussain S",
-      "grade": "VIII"
-    },
-    {
-      "id": "S059",
-      "name": "Md Adnan M",
-      "grade": "X"
-    },
-    {
-      "id": "S060",
-      "name": "Md Taqbee A T",
-      "grade": "XI"
-    },
-    {
-      "id": "S061",
-      "name": "Fawaz Abdur Raheem K",
-      "grade": "V"
-    },
-    {
-      "id": "S062",
-      "name": "Abdul Muqheeth S",
-      "grade": "CIX"
-    },
-    {
-      "id": "S063",
-      "name": "Md Saleem A",
-      "grade": "X"
-    },
-    {
-      "id": "S064",
-      "name": "Md Liyaqathullah S E",
-      "grade": "X"
-    },
-    {
-      "id": "S065",
-      "name": "Md Usaid N",
-      "grade": "X"
-    },
-    {
-      "id": "S066",
-      "name": "Md Aasim Zaid Q",
-      "grade": "X"
-    },
-    {
-      "id": "S067",
-      "name": "Md Usaid A",
-      "grade": "IX"
-    },
-    {
-      "id": "S068",
-      "name": "Abubakkar Amsal S",
-      "grade": "X"
-    },
-    {
-      "id": "S069",
-      "name": "Md Hanzala T M",
-      "grade": "X"
-    },
-    {
-      "id": "S070",
-      "name": "Md Hamza M",
-      "grade": "VIII"
-    },
-    {
-      "id": "S071",
-      "name": "Md Zahab M",
-      "grade": "VIII"
-    }
+    { "id": "S001", "name": "A Mohammed Saleem", "grade": "10" },
+    { "id": "S002", "name": "A Mohammed Saalim", "grade": "5" },
+    { "id": "S003", "name": "A Mohammed Sufiyan", "grade": "6" },
+    { "id": "S004", "name": "N Mohammed Rehan", "grade": "6" },
+    { "id": "S005", "name": "Tabsheer Ahmed P", "grade": "10" },
+    { "id": "S006", "name": "Atif Ahmed V N", "grade": "10" },
+    { "id": "S007", "name": "Abrar Ul Haq K", "grade": "10" },
+    { "id": "S008", "name": "Hisham K", "grade": "10" },
+    { "id": "S009", "name": "Mohammed Khanith M", "grade": "11" },
+    { "id": "S010", "name": "Mohammed Taaha K", "grade": "11" },
+    { "id": "S011", "name": "Khaleel Ur Rahman", "grade": "12" },
+    { "id": "S012", "name": "Mohammed Faizan A", "grade": "12" },
+    { "id": "S013", "name": "Mohammed Owais V R", "grade": "12" },
+    { "id": "S014", "name": "Mohammed Noohu", "grade": "12" },
+    { "id": "S015", "name": "Mohammed Ammar C", "grade": "3" },
+    { "id": "S016", "name": "Mohammed Tauqeer V", "grade": "3" },
+    { "id": "S017", "name": "Mohammed Tabsheer V", "grade": "8" },
+    { "id": "S018", "name": "Adnan Faiz A", "grade": "6" },
+    { "id": "S019", "name": "Mohammed Sareem A S", "grade": "8" },
+    { "id": "S020", "name": "Syed Ayaan A", "grade": "7" },
+    { "id": "S021", "name": "Ammar Hussain H B", "grade": "6" },
+    { "id": "S022", "name": "Abubakkar M", "grade": "7" },
+    { "id": "S023", "name": "Mohammed Ammar K A", "grade": "3" },
+    { "id": "S024", "name": "Mohammed Hamdaan M", "grade": "6" },
+    { "id": "S025", "name": "Mohammed Faizaan T", "grade": "5" },
+    { "id": "S026", "name": "Mohammed Aarif A", "grade": "7" },
+    { "id": "S027", "name": "Mohammed Irfan P H", "grade": "10" },
+    { "id": "S028", "name": "Mohammed Nihaal G H", "grade": "10" },
+    { "id": "S029", "name": "Mohammed Asaaf C", "grade": "10" },
+    { "id": "S030", "name": "Mujeebur Rahman H", "grade": "10" },
+    { "id": "S031", "name": "Mohammed Yaseen A", "grade": "10" },
+    { "id": "S032", "name": "Mohammed Raaqeeb A", "grade": "11" },
+    { "id": "S033", "name": "Mohammed Affan N", "grade": "5" },
+    { "id": "S034", "name": "Mohammed Rizwan Z", "grade": "5" },
+    { "id": "S035", "name": "Mohammed Inaayathullah K", "grade": "8" },
+    { "id": "S036", "name": "Fouzan Zafar C", "grade": "11" },
+    { "id": "S037", "name": "Mohammed Talha V", "grade": "7" },
+    { "id": "S038", "name": "Mohammed Taaha V", "grade": "11" },
+    { "id": "S039", "name": "Mohammed Huzaif N", "grade": "11" },
+    { "id": "S040", "name": "Tufail Sheikh S", "grade": "7" },
+    { "id": "S041", "name": "Irbaz Azhad M", "grade": "7" },
+    { "id": "S042", "name": "Mohammed Haris J S", "grade": "10" },
+    { "id": "S043", "name": "Mohammed Anas M", "grade": "11" },
+    { "id": "S044", "name": "Mohammed Hamid S", "grade": "12" },
+    { "id": "S045", "name": "Mohammed Rehan V J", "grade": "10" },
+    { "id": "S046", "name": "Mohammed Safwan V J", "grade": "10" },
+    { "id": "S047", "name": "Mohammed Furqan E", "grade": "11" },
+    { "id": "S048", "name": "Md Raahib K S", "grade": "4" },
+    { "id": "S049", "name": "Md Arquam T A", "grade": "10" },
+    { "id": "S050", "name": "Md Sulaiman M A", "grade": "9" },
+    { "id": "S051", "name": "Md Hamdaan A", "grade": "6" },
+    { "id": "S052", "name": "Syed Shuaib F", "grade": "3" },
+    { "id": "S053", "name": "Md Raihaan K", "grade": "6" },
+    { "id": "S054", "name": "Md Taj Hussain S", "grade": "8" },
+    { "id": "S055", "name": "Md Adnaan M", "grade": "10" },
+    { "id": "S056", "name": "Md Taqee A T", "grade": "11" },
+    { "id": "S057", "name": "Fawaz Abdur Raheem K", "grade": "5" },
+    { "id": "S058", "name": "Abdul Muqheeth S", "grade": "12" },
+    { "id": "S059", "name": "Md Liyaqathullah S E", "grade": "10" },
+    { "id": "S060", "name": "Md Usaid N", "grade": "10" },
+    { "id": "S061", "name": "Md Aasim Zaid S", "grade": "10" },
+    { "id": "S062", "name": "Md Usaid A", "grade": "9" },
+    { "id": "S063", "name": "Abubakkar Amsal S", "grade": "10" }
   ]
 }
